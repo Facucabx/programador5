@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Tarea/Ejercicio 1</title>
+</head>
+
+<body>
+    <script>
+        const nombre = prompt('Ingrese su nombre:', '');
+        const distancia = parseInt(prompt('Ingrese su distancia:', ''));
+
+
+        if (Number.isNaN(distancia)) {
+            document.write(`La distancia ingresada no es valida.</br> 
+            Intente nuevamente ingresando solamente caracteres numéricos`);
+        }
+        else if (distancia <= 1000) {
+            document.write(`Hola ${nombre}, tu distancia es de ${distancia} pies, tu medio apropiado es: A PIE`)
+        }
+        else if (distancia <= 1001) {
+            document.write(`Hola ${nombre}, tu distancia es de ${distancia} pies, tu medio apropiado es: EN BICI`)
+        }
+        else if (distancia <= 30000) {
+            document.write(`Hola ${nombre}, tu distancia es de ${distancia} pies, tu medio apropiado es: EN COLECTIVO`)
+        }
+        else if (distancia <= 100000) {
+            document.write(`Hola ${nombre}, tu distancia es de ${distancia} pies, tu medio apropiado es: EN AUTO`)
+        }
+        else if (distancia <= 300000) {
+            document.write(`Hola ${nombre}, tu distancia es de ${distancia} pies, tu medio apropiado es: EN AVIÓN`)
+        }
+
+    </script>
+
+</body>
+
+</html>
