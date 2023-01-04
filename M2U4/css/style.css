@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#carouselExampleCaptions {
+    margin-top: 50px;
+    background: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: black;
+
+}
+
+
+
+.scroll_section {
+    scroll-margin-top: 70px;
+}
+
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(17, 17, 17);
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: black;
+    height: 60px;
+
+}
+
+.logo {
+    color: rgb(221, 188, 3);
+    font-size: 38px;
+    text-decoration: none;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: rgb(255, 217, 3);
+    transition: .6s;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 3px 50px;
+    font-size: 28px;
+    padding-top: 1ch;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(221, 188, 3);
+    transition: .3s;
+}
+
+.boton1 {
+    border: none;
+    background: rgb(109, 109, 109);
+    color: white;
+    padding: 5px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.boton1:hover {
+    transform: scale(1);
+    cursor: pointer;
+    background: rgb(221, 188, 3);
+}
+
+.boton2 {
+    border: none;
+    background: rgb(221, 188, 3);
+    color: white;
+    padding: 6px 40px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.boton2:hover {
+    transform: scale(1);
+    cursor: pointer;
+    background: rgb(160, 136, 2);
+}
+
+img {
+    border-radius: 10px;
+}
+
+.container {
+    padding-top: 1%;
+}
+
+#historia {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#historia p {
+    padding-right: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    padding-right: 10%;
+    color: rgb(221, 188, 3);
+}
+
+
+#nosotros {
+    margin-top: 10%;
+}
+
+#conte-nosotros {
+    display: flex;
+
+}
+
+#conte-nosotros img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+
+}
+
+.columna img {
+    border-radius: 5%;
+    width: 80px;
+}
+
+#conte-nosotros p {
+    color: white;
+    width: 300px;
+
+}
+
+h5 {
+    color: rgb(221, 188, 3);
+    padding-top: 15px;
+
+}
+
+.columna {
+    margin: 10px;
+    text-align: center;
+}
+
+#visitanos {
+    margin-top: 10%;
+}
+
+#contacto {
+    margin-top: 10%;
+    padding-bottom: 50px;
+}
+
+#contac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contac img {
+    width: 70px;
+    padding-left: 20px;
+}
+
+
+footer {
+    background: black;
+    padding-top: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+
+}
